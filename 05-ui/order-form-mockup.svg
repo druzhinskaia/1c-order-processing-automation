@@ -7,7 +7,7 @@
   <rect x="70" y="145" width="1040" height="76" rx="6" fill="#eef4fa" stroke="#b7c9da"/>
   <text x="95" y="176" font-family="Arial, sans-serif" font-size="14" fill="#475569">Номер</text>
   <rect x="95" y="186" width="145" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
-  <text x="110" y="203" font-family="Arial, sans-serif" font-size="13" fill="#334155">AUTO-000245</text>
+  <text x="110" y="203" font-family="Arial, sans-serif" font-size="13" fill="#334155">ЗАЯВКА-000245</text>
   <text x="275" y="176" font-family="Arial, sans-serif" font-size="14" fill="#475569">Дата создания</text>
   <rect x="275" y="186" width="145" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
   <text x="290" y="203" font-family="Arial, sans-serif" font-size="13" fill="#334155">25.06.2026</text>

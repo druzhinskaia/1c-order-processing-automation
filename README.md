@@ -1,10 +1,10 @@
-# 1C Order Request Process Automation
+# Автоматизация обработки заявок в 1С
 
 Смоделированный коммерческий кейс, основанный на типовых задачах бизнес-аналитика при автоматизации процессов в 1С.
 
 ## Как смотреть проект
 
-Рекомендуемый порядок просмотра: бизнес-кейс -> AS-IS BPMN -> root cause analysis -> требования и RTM -> TO-BE BPMN -> UI mockup -> техническое задание -> критерии приемки.
+Рекомендуемый порядок просмотра: бизнес-кейс -> AS-IS BPMN -> анализ первопричин -> требования и RTM -> TO-BE BPMN -> макет формы -> техническое задание -> критерии приемки.
 
 ## Бизнес-кейс
 
@@ -31,12 +31,12 @@ flowchart LR
     A["Бизнес-проблема"] --> B["Исследование процесса"]
     B --> C["Интервью пользователей"]
     C --> D["AS-IS BPMN"]
-    D --> E["Root cause analysis"]
+    D --> E["Анализ первопричин"]
     E --> F["Требования и RTM"]
     F --> G["TO-BE BPMN"]
-    G --> H["UI mockup"]
+    G --> H["Макет формы"]
     H --> I["Техническое задание"]
-    I --> J["Acceptance criteria"]
+    I --> J["Критерии приемки"]
 ```
 
 ## Цели проекта
@@ -65,11 +65,11 @@ flowchart LR
 | Сфера | Продажа промышленного оборудования |
 | Сотрудники | 65 |
 | Менеджеры продаж | 15 |
-| ERP | 1С |
+| Основная система | 1С |
 | Объем заявок | около 200 в день |
 | Участники процесса | продажи, бухгалтерия, склад, руководитель отдела продаж |
 
-## Stakeholders
+## Заинтересованные стороны
 
 | Группа | Представители | Интерес |
 |---|---|---|
@@ -79,9 +79,9 @@ flowchart LR
 | Руководитель процесса | Руководитель отдела продаж | Контроль статусов, SLA и ответственных |
 | Исполнитель | Команда 1С | Понятные требования и критерии приемки |
 
-## Scope проекта
+## Границы проекта
 
-### In Scope
+### Входит в объем
 
 - единая форма заявки в 1С;
 - обязательные поля и проверки данных;
@@ -91,7 +91,7 @@ flowchart LR
 - согласование нестандартных заявок;
 - отчет руководителя по статусам, просрочкам и ответственным.
 
-### Out of Scope
+### Не входит в объем
 
 - внедрение CRM;
 - личный кабинет клиента;
@@ -99,42 +99,42 @@ flowchart LR
 - интеграции с внешними сайтами;
 - финансовое планирование и бюджетирование.
 
-## Risks, Assumptions and Constraints
+## Риски, допущения и ограничения
 
-| Type | Key Points |
+| Тип | Ключевые пункты |
 |---|---|
-| Risks | users may continue using Excel; managers may resist process changes; migration of old requests may contain errors |
-| Assumptions | company already uses 1C; client cards already exist; employees work in one internal environment |
-| Constraints | no new CRM purchase; MVP inside 1C; release target is 2 months; no major database redesign |
+| Риски | пользователи могут продолжить вести Excel; менеджеры могут сопротивляться изменению процесса; перенос старых заявок может содержать ошибки |
+| Допущения | компания уже использует 1С; карточки клиентов уже есть; сотрудники работают в единой внутренней среде |
+| Ограничения | без покупки новой CRM; MVP внутри 1С; целевой срок релиза - 2 месяца; без крупного изменения структуры базы |
 
-## Project Timeline
+## План проекта
 
 | Период | Этап | Работы | Статус |
 |---|---|---|---|
-| 01.04-05.04 | Discovery | бизнес-контекст, текущие метрики, границы процесса | Done |
-| 08.04-12.04 | Analysis | интервью, pain points, root cause analysis | Done |
-| 15.04-19.04 | Design | AS-IS/TO-BE BPMN, architecture, use cases | Done |
-| 22.04-26.04 | Requirements | BRD, FRD, RTM, user stories | Done |
-| 29.04-03.05 | Validation | UI mockup, acceptance criteria, test scenarios | Done |
-| 06.05-10.05 | Handover | technical specification and demo materials | Done |
+| 01.04-05.04 | Исследование | бизнес-контекст, текущие метрики, границы процесса | Выполнено |
+| 08.04-12.04 | Анализ | интервью, боли пользователей, анализ первопричин | Выполнено |
+| 15.04-19.04 | Проектирование | AS-IS/TO-BE BPMN, архитектура решения, сценарии использования | Выполнено |
+| 22.04-26.04 | Требования | бизнес-требования, функциональные требования, RTM, пользовательские истории | Выполнено |
+| 29.04-03.05 | Проверка | макет формы, критерии приемки, тестовые сценарии | Выполнено |
+| 06.05-10.05 | Передача | техническое задание и материалы для демонстрации | Выполнено |
 
-## Deliverables
+## Артефакты
 
-| Deliverable | File |
+| Артефакт | Файл |
 |---|---|
 | AS-IS BPMN | [03-bpmn/as-is.drawio](03-bpmn/as-is.drawio) |
 | TO-BE BPMN | [03-bpmn/to-be.drawio](03-bpmn/to-be.drawio) |
-| Business Requirements | [04-requirements/business-requirements.md](04-requirements/business-requirements.md) |
-| Functional Requirements | [04-requirements/functional-requirements.md](04-requirements/functional-requirements.md) |
-| Non-Functional Requirements | [04-requirements/non-functional.md](04-requirements/non-functional.md) |
-| User Stories | [04-requirements/user-stories.md](04-requirements/user-stories.md) |
-| Requirements Register | [04-requirements/requirements-register.md](04-requirements/requirements-register.md) |
-| Requirements Traceability Matrix | [04-requirements/requirements-traceability-matrix.md](04-requirements/requirements-traceability-matrix.md) |
-| Technical Specification | [06-specification/technical-specification.md](06-specification/technical-specification.md) |
-| UI Mockup | [05-ui/order-form.md](05-ui/order-form.md) |
-| Acceptance Criteria | [07-testing/acceptance-criteria.md](07-testing/acceptance-criteria.md) |
-| Test Scenarios | [07-testing/test-scenarios.md](07-testing/test-scenarios.md) |
-| Demo Materials | [09-presentation/demo-outline.md](09-presentation/demo-outline.md) |
+| Бизнес-требования | [04-requirements/business-requirements.md](04-requirements/business-requirements.md) |
+| Функциональные требования | [04-requirements/functional-requirements.md](04-requirements/functional-requirements.md) |
+| Нефункциональные требования | [04-requirements/non-functional.md](04-requirements/non-functional.md) |
+| Пользовательские истории | [04-requirements/user-stories.md](04-requirements/user-stories.md) |
+| Реестр требований | [04-requirements/requirements-register.md](04-requirements/requirements-register.md) |
+| Матрица трассируемости требований | [04-requirements/requirements-traceability-matrix.md](04-requirements/requirements-traceability-matrix.md) |
+| Техническое задание | [06-specification/technical-specification.md](06-specification/technical-specification.md) |
+| Макет формы | [05-ui/order-form.md](05-ui/order-form.md) |
+| Критерии приемки | [07-testing/acceptance-criteria.md](07-testing/acceptance-criteria.md) |
+| Тестовые сценарии | [07-testing/test-scenarios.md](07-testing/test-scenarios.md) |
+| Материалы для демонстрации | [09-presentation/demo-outline.md](09-presentation/demo-outline.md) |
 
 ## BPMN
 
@@ -146,92 +146,57 @@ flowchart LR
 
 ![TO-BE процесс](03-bpmn/to-be.svg)
 
-## Supporting Diagrams
+## Дополнительные диаграммы
 
-### Solution Architecture
+### Архитектура решения
 
-![Solution Architecture](03-bpmn/architecture.svg)
+![Архитектура решения](03-bpmn/architecture.svg)
 
-### Use Case Diagram
+### Диаграмма вариантов использования
 
-![Use Case Diagram](03-bpmn/use-case.svg)
+![Диаграмма вариантов использования](03-bpmn/use-case.svg)
 
-### Sequence Diagram
+### Диаграмма последовательности
 
-![Sequence Diagram](03-bpmn/sequence.svg)
+![Диаграмма последовательности](03-bpmn/sequence.svg)
 
-## Document Map
+## Карта документов
 
 ```mermaid
 flowchart TD
-    R["README"] --> BC["01-business-context"]
-    R --> PA["02-process-analysis"]
-    R --> BPMN["03-bpmn"]
-    R --> REQ["04-requirements"]
-    R --> UI["05-ui"]
-    R --> TS["06-specification"]
-    R --> TEST["07-testing"]
-    R --> RES["08-result"]
-    R --> PRES["09-presentation"]
+    R["README"] --> BC["Бизнес-контекст"]
+    R --> PA["Анализ процесса"]
+    R --> BPMN["BPMN и диаграммы"]
+    R --> REQ["Требования"]
+    R --> UI["Макет формы"]
+    R --> TS["Техническое задание"]
+    R --> TEST["Проверка и приемка"]
+    R --> RES["Итоги"]
+    R --> PRES["Демонстрация"]
 ```
 
-## Repository Structure
+## Структура репозитория
 
-```text
-02-bpmn-1c-requirements
-|-- README.md
-|-- 01-business-context
-|   |-- company.md
-|   |-- goals-and-kpi.md
-|   |-- assumptions-and-constraints.md
-|   |-- risks.md
-|   |-- scope.md
-|   |-- stakeholders.md
-|   `-- timeline.md
-|-- 02-process-analysis
-|   |-- interview-notes.md
-|   |-- as-is-process.md
-|   |-- problems.md
-|   |-- root-cause-analysis.md
-|   `-- to-be-process.md
-|-- 03-bpmn
-|   |-- as-is.drawio
-|   |-- to-be.drawio
-|   |-- as-is.svg
-|   |-- to-be.svg
-|   |-- architecture.svg
-|   |-- use-case.svg
-|   `-- sequence.svg
-|-- 04-requirements
-|   |-- business-requirements.md
-|   |-- functional-requirements.md
-|   |-- non-functional.md
-|   |-- requirements-register.md
-|   |-- requirements-traceability-matrix.md
-|   |-- user-stories.md
-|-- 05-ui
-|   |-- order-form.md
-|   `-- order-form-mockup.svg
-|-- 06-specification
-|   `-- technical-specification.md
-|-- 07-testing
-|   |-- acceptance-criteria.md
-|   `-- test-scenarios.md
-|-- 08-result
-|   |-- lessons-learned.md
-|   `-- project-summary.md
-`-- 09-presentation
-    `-- demo-outline.md
-```
+| Раздел | Содержание |
+|---|---|
+| Бизнес-контекст | компания, цели, KPI, допущения, ограничения, риски, заинтересованные стороны |
+| Анализ процесса | интервью, AS-IS описание, проблемы, первопричины, TO-BE описание |
+| BPMN и диаграммы | исходные draw.io-схемы, SVG-превью, архитектура, варианты использования, последовательность |
+| Требования | бизнес-требования, функциональные и нефункциональные требования, реестр, RTM, пользовательские истории |
+| Макет формы | описание целевой формы заявки и SVG-макет |
+| Техническое задание | требования к доработке 1С |
+| Проверка и приемка | критерии приемки и тестовые сценарии |
+| Итоги | итоговое описание и выводы по проекту |
+| Демонстрация | план презентации проекта |
 
-## Tools
+## Инструменты и навыки
 
-BPMN, draw.io, business analysis, requirements management, process improvement, 1C, UI mockup, RTM, acceptance criteria.
+BPMN, draw.io, 1С, анализ бизнес-процессов, сбор требований, управление требованиями, RTM, макетирование формы, критерии приемки.
 
-## Resume Description
+## Формулировка для резюме
 
-Подготовила смоделированный коммерческий кейс по автоматизации процесса обработки заявок в 1С: провела анализ AS-IS процесса, описала stakeholders, scope, risks, assumptions и constraints, выявила root causes, спроектировала TO-BE процесс, подготовила BPMN-схемы в draw.io, RTM, business/functional requirements, user stories, UI mockup, техническое задание и критерии приемки.
+Подготовила смоделированный коммерческий кейс по автоматизации процесса обработки заявок в 1С: провела анализ AS-IS процесса, описала заинтересованные стороны, границы проекта, риски, допущения и ограничения, выявила первопричины проблем, спроектировала TO-BE процесс, подготовила BPMN-схемы в draw.io, RTM, бизнес-требования, функциональные требования, пользовательские истории, макет формы, техническое задание и критерии приемки.
 
-## Lessons Learned
+## Выводы
 
-В ходе проекта были отработаны навыки описания бизнес-процессов, проведения интервью, выявления root causes, моделирования BPMN, подготовки требований, проектирования формы, написания ТЗ, формирования RTM и подготовки критериев приемки.
+В ходе проекта были отработаны навыки описания бизнес-процессов, проведения интервью, выявления первопричин, моделирования BPMN, подготовки требований, проектирования формы, написания ТЗ, формирования RTM и подготовки критериев приемки.

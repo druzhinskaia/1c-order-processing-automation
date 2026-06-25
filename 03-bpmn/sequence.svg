@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
   <rect width="1180" height="620" fill="#ffffff"/>
   <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1f4e78"/></marker></defs>
-  <text x="590" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f4e78">Sequence Diagram: Request Registration</text>
+  <text x="590" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f4e78">Диаграмма последовательности: регистрация заявки</text>
   <g font-family="Arial, sans-serif" font-size="15" fill="#1f2933">
     <rect x="70" y="95" width="160" height="46" rx="6" fill="#ddebf7" stroke="#5b9bd5" stroke-width="2"/>
-    <text x="150" y="124" text-anchor="middle">Manager</text>
+    <text x="150" y="124" text-anchor="middle">Менеджер</text>
     <rect x="310" y="95" width="160" height="46" rx="6" fill="#d9ead3" stroke="#70ad47" stroke-width="2"/>
-    <text x="390" y="124" text-anchor="middle">1C Form</text>
+    <text x="390" y="124" text-anchor="middle">Форма 1С</text>
     <rect x="550" y="95" width="160" height="46" rx="6" fill="#eef4fa" stroke="#b7c9da" stroke-width="2"/>
-    <text x="630" y="124" text-anchor="middle">1C Database</text>
+    <text x="630" y="124" text-anchor="middle">База 1С</text>
     <rect x="790" y="95" width="160" height="46" rx="6" fill="#fce4d6" stroke="#f4b183" stroke-width="2"/>
-    <text x="870" y="124" text-anchor="middle">Warehouse</text>
+    <text x="870" y="124" text-anchor="middle">Склад</text>
     <rect x="990" y="95" width="150" height="46" rx="6" fill="#f4cccc" stroke="#c00000" stroke-width="2"/>
-    <text x="1065" y="124" text-anchor="middle">Head of Sales</text>
+    <text x="1065" y="124" text-anchor="middle">Руководитель</text>
   </g>
   <g stroke="#b7c9da" stroke-width="2" stroke-dasharray="6 6">
     <path d="M150 141 L150 560"/>
@@ -23,16 +23,16 @@
   </g>
   <g font-family="Arial, sans-serif" font-size="14" fill="#1f2933" stroke="#1f4e78" stroke-width="2" marker-end="url(#arrow)">
     <path d="M150 190 L390 190"/>
-    <text x="270" y="182" text-anchor="middle" stroke="none">enter request data</text>
+    <text x="270" y="182" text-anchor="middle" stroke="none">ввод данных заявки</text>
     <path d="M390 245 L630 245"/>
-    <text x="510" y="237" text-anchor="middle" stroke="none">validate required fields</text>
+    <text x="510" y="237" text-anchor="middle" stroke="none">проверка обязательных полей</text>
     <path d="M630 300 L390 300"/>
-    <text x="510" y="292" text-anchor="middle" stroke="none">validation result</text>
+    <text x="510" y="292" text-anchor="middle" stroke="none">результат проверки</text>
     <path d="M390 355 L630 355"/>
-    <text x="510" y="347" text-anchor="middle" stroke="none">save request, status, SLA</text>
+    <text x="510" y="347" text-anchor="middle" stroke="none">сохранение заявки, статуса, SLA</text>
     <path d="M630 410 L870 410"/>
-    <text x="750" y="402" text-anchor="middle" stroke="none">send fulfillment task</text>
+    <text x="750" y="402" text-anchor="middle" stroke="none">передача задачи на исполнение</text>
     <path d="M630 465 L1065 465"/>
-    <text x="848" y="457" text-anchor="middle" stroke="none">notify overdue / high priority</text>
+    <text x="848" y="457" text-anchor="middle" stroke="none">уведомление о просрочке / высоком приоритете</text>
   </g>
 </svg>

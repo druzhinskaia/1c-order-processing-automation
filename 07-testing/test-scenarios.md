@@ -1,12 +1,12 @@
-# Test Scenarios
+# Тестовые сценарии
 
-| ID | Scenario | Steps | Expected Result |
+| ID | Сценарий | Шаги | Ожидаемый результат |
 |---|---|---|---|
-| TS-01 | Required fields validation | Create request without category and priority | System shows validation error and does not save request |
-| TS-02 | SLA calculation | Select high priority | SLA is set to 1 working day |
-| TS-03 | Standard request flow | Create request with medium priority and complete all required fields | Request receives status `Новая` and responsible manager is notified |
-| TS-04 | Approval flow | Create high-priority request | Request moves to `На согласовании` |
-| TS-05 | Overdue notification | Leave request open after SLA deadline | Head of sales receives overdue notification |
-| TS-06 | Status history | Change status from `Новая` to `В работе` | History contains date, user and new status |
-| TS-07 | Report | Open manager report | Report shows requests by status, overdue requests and responsible users |
-| TS-08 | Access rights | Try to change status dictionary as regular manager | System denies access and shows permission error |
+| TS-01 | Проверка обязательных полей | Создать заявку без категории и приоритета | Система показывает ошибку валидации и не сохраняет заявку |
+| TS-02 | Расчет SLA | Выбрать высокий приоритет | SLA устанавливается на 1 рабочий день |
+| TS-03 | Стандартный маршрут заявки | Создать заявку со средним приоритетом и заполнить обязательные поля | Заявка получает статус `Новая`, ответственный получает уведомление |
+| TS-04 | Маршрут согласования | Создать заявку высокого приоритета | Заявка переходит в статус `На согласовании` |
+| TS-05 | Уведомление о просрочке | Оставить заявку открытой после срока SLA | Руководитель отдела продаж получает уведомление о просрочке |
+| TS-06 | История статусов | Изменить статус с `Новая` на `В работе` | В истории отображаются дата, пользователь и новый статус |
+| TS-07 | Отчет руководителя | Открыть отчет руководителя | Отчет показывает заявки по статусам, просрочки и ответственных |
+| TS-08 | Права доступа | Попробовать изменить справочник статусов под обычным менеджером | Система запрещает доступ и показывает ошибку прав |

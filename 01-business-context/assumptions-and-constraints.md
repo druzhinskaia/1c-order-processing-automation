@@ -1,21 +1,21 @@
-# Assumptions and Constraints
+# Допущения и ограничения
 
-## Assumptions
+## Допущения
 
-| ID | Assumption |
+| ID | Допущение |
 |---|---|
-| A-01 | Company already uses 1C for sales operations |
-| A-02 | Client cards already exist in 1C |
-| A-03 | Employees work inside one internal environment |
-| A-04 | Responsible manager can be determined by category or sales team |
-| A-05 | Head of sales reviews overdue requests daily |
+| A-01 | Компания уже использует 1С для продаж |
+| A-02 | Карточки клиентов уже заведены в 1С |
+| A-03 | Сотрудники работают в единой внутренней среде |
+| A-04 | Ответственный менеджер может определяться по категории или команде продаж |
+| A-05 | Руководитель отдела продаж ежедневно просматривает просроченные заявки |
 
-## Constraints
+## Ограничения
 
-| ID | Constraint |
+| ID | Ограничение |
 |---|---|
-| C-01 | No new CRM purchase within MVP |
-| C-02 | Solution must be implemented inside 1C |
-| C-03 | Release target is 2 months |
-| C-04 | No major database redesign at MVP stage |
-| C-05 | Existing client and product directories should be reused |
+| C-01 | В MVP не покупается новая CRM |
+| C-02 | Решение должно быть реализовано внутри 1С |
+| C-03 | Целевой срок релиза - 2 месяца |
+| C-04 | На этапе MVP не выполняется крупное изменение структуры базы |
+| C-05 | Существующие справочники клиентов и товаров должны быть переиспользованы |

@@ -1,13 +1,13 @@
-# Acceptance Criteria
+# Критерии приемки
 
-| ID | Criteria |
+| ID | Критерий |
 |---|---|
-| AC-01 | User cannot save a request without initiator, topic, description, category and priority |
-| AC-02 | Request status can be selected only from the approved status list |
-| AC-03 | SLA is calculated automatically after priority is selected |
-| AC-04 | Responsible manager receives notification after request creation |
-| AC-05 | Head of sales receives notification when SLA is overdue |
-| AC-06 | High-priority request is routed to approval before execution |
-| AC-07 | Status history contains date, user and new status |
-| AC-08 | Manager report shows statuses, overdue requests and responsible users |
-| AC-09 | Only administrator can change dictionaries and status lists |
+| AC-01 | Пользователь не может сохранить заявку без инициатора, темы, описания, категории и приоритета |
+| AC-02 | Статус заявки можно выбрать только из утвержденного списка |
+| AC-03 | SLA рассчитывается автоматически после выбора приоритета |
+| AC-04 | Ответственный менеджер получает уведомление после создания заявки |
+| AC-05 | Руководитель отдела продаж получает уведомление при просрочке SLA |
+| AC-06 | Заявка высокого приоритета направляется на согласование перед выполнением |
+| AC-07 | История статусов содержит дату, пользователя и новый статус |
+| AC-08 | Отчет руководителя показывает статусы, просроченные заявки и ответственных |
+| AC-09 | Только администратор может изменять справочники и списки статусов |

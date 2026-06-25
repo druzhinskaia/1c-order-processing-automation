@@ -1,10 +1,10 @@
-# User Stories
+# Пользовательские истории
 
-| ID | User Story | Acceptance Criteria |
+| ID | Пользовательская история | Критерий приемки |
 |---|---|---|
-| US-01 | As a sales manager, I want to create a request in one 1C form so that I do not collect data in chats and spreadsheets | form has mandatory fields and cannot be saved without them |
-| US-02 | As a sales manager, I want the system to calculate SLA automatically so that I do not set deadlines manually | SLA is filled after priority is selected |
-| US-03 | As a head of sales, I want to see overdue requests so that I can react before clients escalate | report has overdue filter and responsible person |
-| US-04 | As an accountant, I want required payment data to be filled before processing so that I do not return requests repeatedly | request cannot move forward without required fields |
-| US-05 | As a warehouse specialist, I want to see request status so that I understand whether it is ready for fulfillment | status is visible in the request card |
-| US-06 | As a 1C developer, I want clear fields, statuses and rules so that I can implement the change without additional clarification | technical specification includes fields, status model and validation rules |
+| US-01 | Как менеджер продаж, я хочу создавать заявку в единой форме 1С, чтобы не собирать данные в чатах и таблицах | форма содержит обязательные поля и не сохраняется без них |
+| US-02 | Как менеджер продаж, я хочу, чтобы система автоматически рассчитывала SLA, чтобы не назначать сроки вручную | SLA заполняется после выбора приоритета |
+| US-03 | Как руководитель отдела продаж, я хочу видеть просроченные заявки, чтобы реагировать до эскалации клиента | отчет содержит фильтр просрочек и ответственного |
+| US-04 | Как бухгалтер, я хочу получать заявку с обязательными платежными данными, чтобы не возвращать ее менеджеру повторно | заявка не двигается дальше без обязательных полей |
+| US-05 | Как сотрудник склада, я хочу видеть статус заявки, чтобы понимать, готова ли она к выполнению | статус отображается в карточке заявки |
+| US-06 | Как разработчик 1С, я хочу получить понятные поля, статусы и правила, чтобы реализовать доработку без дополнительных уточнений | техническое задание содержит поля, модель статусов и правила проверки |

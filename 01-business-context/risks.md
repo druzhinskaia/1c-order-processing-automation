@@ -1,14 +1,14 @@
-# Risk Analysis
+# Анализ рисков
 
-| ID | Risk | Impact | Mitigation |
+| ID | Риск | Влияние | Меры снижения |
 |---|---|---|---|
-| R-01 | Managers continue using Excel and chats after release | High | Training, clear process owner, disabling parallel manual tracking |
-| R-02 | Users resist additional required fields | Medium | Keep form short, explain why fields are needed, add hints |
-| R-03 | Old requests contain incomplete data | Medium | Migrate only active requests and mark incomplete records |
-| R-04 | SLA rules are not agreed between sales and operations | High | Approve SLA matrix before development |
-| R-05 | Notification overload makes users ignore messages | Medium | Notify only on creation, assignment and overdue status |
-| R-06 | Report performance is slow on large volumes | Medium | Limit default period and add filters |
+| R-01 | Менеджеры продолжат использовать Excel и чаты после запуска | Высокое | Обучение, владелец процесса, отказ от параллельного ручного учета |
+| R-02 | Пользователи будут сопротивляться обязательным полям | Среднее | Короткая форма, подсказки, объяснение ценности полей |
+| R-03 | Старые заявки содержат неполные данные | Среднее | Переносить только активные заявки и помечать неполные записи |
+| R-04 | SLA не согласован между продажами и операционными подразделениями | Высокое | Утвердить матрицу SLA до разработки |
+| R-05 | Избыточные уведомления будут игнорироваться | Среднее | Уведомлять только о создании, назначении и просрочке |
+| R-06 | Отчет может медленно работать на больших объемах | Среднее | Ограничить период по умолчанию и добавить фильтры |
 
-## Risk Summary
+## Вывод по рискам
 
-The main project risk is not technical implementation, but user adoption. The process should be supported by training, clear ownership and management control after release.
+Главный риск проекта связан не с технической реализацией, а с принятием процесса пользователями. После запуска нужны обучение, понятный владелец процесса и контроль со стороны руководителя.

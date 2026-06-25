@@ -1,44 +1,44 @@
-# Demo Outline
+# План демонстрации проекта
 
-## Slide 1: Business Problem
+## Слайд 1: Бизнес-проблема
 
-Requests are processed through email, Excel and 1C. Processing time increased from 1 to 3 days, and the head of sales does not have online visibility into overdue requests.
+Заявки обрабатываются через почту, Excel и 1С. Срок обработки вырос с 1 до 3 дней, а руководитель отдела продаж не видит просрочки онлайн.
 
-## Slide 2: Current Metrics
+## Слайд 2: Текущие метрики
 
-- 15 sales managers;
-- about 200 requests per day;
-- about 18% requests contain data errors;
-- up to 12 minutes to register one request;
-- about 2 hours per week to prepare manual reporting.
+- 15 менеджеров продаж;
+- около 200 заявок в день;
+- около 18% заявок содержат ошибки в данных;
+- до 12 минут на регистрацию одной заявки;
+- около 2 часов в неделю на ручную отчетность.
 
-## Slide 3: AS-IS Process
+## Слайд 3: AS-IS процесс
 
-Show AS-IS BPMN and highlight manual steps, missing validation and weak SLA control.
+Показать AS-IS BPMN и выделить ручные операции, отсутствие проверки данных и слабый контроль SLA.
 
-## Slide 4: Root Causes
+## Слайд 4: Первопричины
 
-- no single input channel;
-- no mandatory fields;
-- manual status updates;
-- no automatic SLA;
-- manual reporting.
+- нет единого канала входа;
+- нет обязательных полей;
+- статусы обновляются вручную;
+- нет автоматического SLA;
+- отчетность собирается вручную.
 
-## Slide 5: TO-BE Process
+## Слайд 5: TO-BE процесс
 
-Show target BPMN with 1C validation, status model, SLA, notifications and management reporting.
+Показать целевой BPMN с проверкой данных в 1С, моделью статусов, SLA, уведомлениями и отчетом руководителя.
 
-## Slide 6: Requirements Package
+## Слайд 6: Пакет требований
 
-Show BRD, FRD, user stories, RTM and technical specification.
+Показать бизнес-требования, функциональные требования, пользовательские истории, RTM и техническое задание.
 
-## Slide 7: UI Mockup
+## Слайд 7: Макет формы
 
-Show target request form and validation rules.
+Показать целевую форму заявки и правила проверки данных.
 
-## Slide 8: Expected Effect
+## Слайд 8: Ожидаемый эффект
 
-- registration time: 12 minutes to 4 minutes;
-- data errors: 18% to less than 5%;
-- SLA compliance: 85% to 98%;
-- request status visible online.
+- время регистрации: с 12 до 4 минут;
+- ошибки в данных: с 18% до менее 5%;
+- соблюдение SLA: с 85% до 98%;
+- статус заявки виден онлайн.

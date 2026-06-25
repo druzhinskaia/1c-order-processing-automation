@@ -1,23 +1,23 @@
-# Order Request Form Mockup
+# Макет формы заявки
 
-## Purpose
+## Назначение
 
-The mockup shows the target 1C request form after process improvement. It is not a final UI design; it documents fields, blocks and validation logic for discussion with users and the 1C development team.
+Макет показывает целевую форму заявки в 1С после улучшения процесса. Это не финальный дизайн интерфейса, а аналитический артефакт: он фиксирует поля, блоки и правила проверки для обсуждения с пользователями и командой 1С.
 
-## Key Blocks
+## Ключевые блоки
 
-- request header: number, creation date, status, priority;
-- initiator and contact data;
-- request details: category, topic, description;
-- SLA and responsible person;
-- approval block for high priority or non-standard requests;
-- status history.
+- шапка заявки: номер, дата создания, статус, приоритет;
+- инициатор и контактные данные;
+- детали заявки: категория, тема, описание;
+- SLA и ответственный;
+- блок согласования для высокого приоритета или нестандартных заявок;
+- история статусов.
 
-## Validation Rules
+## Правила проверки
 
-- required fields are marked with `*`;
-- the request cannot be saved without initiator, topic, category, priority and description;
-- SLA is calculated automatically after priority selection;
-- high-priority requests require approval before execution.
+- обязательные поля отмечены символом `*`;
+- заявку нельзя сохранить без инициатора, темы, категории, приоритета и описания;
+- SLA рассчитывается автоматически после выбора приоритета;
+- заявки высокого приоритета требуют согласования перед выполнением.
 
-![Order request form mockup](order-form-mockup.svg)
+![Макет формы заявки](order-form-mockup.svg)

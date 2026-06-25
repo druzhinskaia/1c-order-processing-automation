@@ -1,29 +1,29 @@
-# Project Goals and KPI
+# Цели проекта и KPI
 
-## Project Goals
+## Цели проекта
 
-| Goal | Description |
+| Цель | Описание |
 |---|---|
-| Reduce manual input | Move request registration from email, Excel and chats to one 1C form |
-| Increase transparency | Make status, responsible person and SLA visible in 1C |
-| Speed up registration | Reduce time spent on creating and checking a request |
-| Prevent lost requests | Ensure each request has a number, status and responsible manager |
-| Simplify control | Provide the head of sales with an operational report |
+| Снизить ручной ввод | Перевести регистрацию заявок из почты, Excel и чатов в единую форму 1С |
+| Повысить прозрачность | Сделать статус, ответственного и SLA видимыми в 1С |
+| Ускорить регистрацию | Сократить время на создание и проверку заявки |
+| Исключить потерю заявок | Каждая заявка должна иметь номер, статус и ответственного |
+| Упростить контроль | Дать руководителю отдела продаж оперативный отчет |
 
 ## KPI
 
-| KPI | Current State | Target State |
+| Показатель | Текущее состояние | Целевое состояние |
 |---|---|---|
-| Request registration time | up to 12 minutes | up to 4 minutes |
-| Requests with data errors | about 18% | less than 5% |
-| SLA compliance | about 85% | at least 98% |
-| Requests without responsible manager | possible | 0% |
-| Manual report preparation | about 2 hours per week | up to 10 minutes |
+| Время регистрации заявки | до 12 минут | до 4 минут |
+| Заявки с ошибками в данных | около 18% | менее 5% |
+| Соблюдение SLA | около 85% | не менее 98% |
+| Заявки без ответственного | возможны | 0% |
+| Подготовка ручного отчета | около 2 часов в неделю | до 10 минут |
 
-## Success Criteria
+## Критерии успеха
 
-- request can be registered only through a controlled form;
-- required fields are validated before save;
-- SLA is calculated automatically;
-- head of sales can see overdue requests online;
-- responsible manager receives notification for a new request.
+- заявка регистрируется через управляемую форму;
+- обязательные поля проверяются до сохранения;
+- SLA рассчитывается автоматически;
+- руководитель видит просроченные заявки онлайн;
+- ответственный менеджер получает уведомление о новой заявке.

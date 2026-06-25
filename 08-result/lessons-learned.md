@@ -1,17 +1,17 @@
-# Lessons Learned
+# Выводы по проекту
 
-## Analytical Skills Practiced
+## Отработанные навыки аналитика
 
-- describing AS-IS and TO-BE business processes;
-- conducting stakeholder interviews;
-- identifying pain points and root causes;
-- defining project scope and out-of-scope boundaries;
-- preparing business, functional and non-functional requirements;
-- building a requirements traceability matrix;
-- creating UI mockups for discussion with users and developers;
-- writing acceptance criteria and test scenarios;
-- preparing a handover package for a 1C development team.
+- описание процессов AS-IS и TO-BE;
+- проведение интервью с заинтересованными сторонами;
+- выявление болей пользователей и первопричин проблем;
+- определение границ проекта и исключений из объема;
+- подготовка бизнес-требований, функциональных и нефункциональных требований;
+- построение матрицы трассируемости требований;
+- создание макета формы для обсуждения с пользователями и разработчиками;
+- описание критериев приемки и тестовых сценариев;
+- подготовка пакета артефактов для передачи команде 1С.
 
-## Key Takeaway
+## Главный вывод
 
-The main value of the project is not only the BPMN diagrams or technical specification. The value is the full analytical chain from business problem to measurable success criteria, requirements, implementation scope and acceptance checks.
+Ценность проекта не только в BPMN-схемах или техническом задании. Основная ценность - в полной аналитической цепочке: от бизнес-проблемы и измеримых критериев успеха до требований, границ реализации и проверки результата.

@@ -1,27 +1,27 @@
-# Project Scope
+# Границы проекта
 
-## In Scope
+## Входит в объем
 
-| Area | Description |
+| Область | Описание |
 |---|---|
-| Request registration | Unified 1C request form |
-| Data validation | Required fields and validation before save |
-| Status management | Approved status list and status history |
-| SLA | Automatic deadline calculation by priority |
-| Notifications | Notifications for responsible manager and overdue requests |
-| Approval | Approval route for high-priority and non-standard requests |
-| Reporting | Manager report by status, SLA and responsible person |
+| Регистрация заявки | Единая форма заявки в 1С |
+| Проверка данных | Обязательные поля и проверка перед сохранением |
+| Управление статусами | Утвержденный список статусов и история изменений |
+| SLA | Автоматический расчет срока по приоритету |
+| Уведомления | Уведомления ответственному и руководителю при просрочке |
+| Согласование | Маршрут согласования для высокого приоритета и нестандартных заявок |
+| Отчетность | Отчет руководителя по статусам, SLA и ответственным |
 
-## Out of Scope
+## Не входит в объем
 
-| Area | Reason |
+| Область | Причина |
 |---|---|
-| CRM implementation | Separate product stream |
-| Client personal account | Requires external frontend and client authentication |
-| Delivery routing | Belongs to logistics process |
-| Website integrations | Not required for MVP |
-| Financial planning | Outside request processing automation |
+| Внедрение CRM | Отдельный продуктовый поток |
+| Личный кабинет клиента | Требует внешнего интерфейса и авторизации клиента |
+| Маршрутизация доставки | Относится к логистическому процессу |
+| Интеграции с сайтом | Не требуются для MVP |
+| Финансовое планирование | Не относится к автоматизации обработки заявок |
 
-## MVP Boundary
+## Граница MVP
 
-The MVP covers request creation, validation, status control, SLA, approval and reporting inside 1C. External integrations can be considered after the internal process is stabilized.
+MVP охватывает создание заявки, проверку данных, контроль статусов, SLA, согласование и отчетность внутри 1С. Внешние интеграции можно рассматривать после стабилизации внутреннего процесса.

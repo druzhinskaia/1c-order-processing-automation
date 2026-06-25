@@ -1,20 +1,20 @@
-# Project Timeline
+# План проекта
 
-| Week | Activity | Output |
+| Период | Этап | Результат |
 |---|---|---|
-| 1 | Business context and process discovery | Company context, process boundaries |
-| 2 | Stakeholder interviews | Interview notes, pain points |
-| 3 | AS-IS modeling | AS-IS BPMN, problem list |
-| 4 | TO-BE design | TO-BE BPMN, scope, requirements |
-| 5 | Specification | UI mockup, technical specification |
-| 6 | Acceptance preparation | Acceptance criteria, test scenarios |
+| 01.04-05.04 | Исследование | бизнес-контекст и границы процесса |
+| 08.04-12.04 | Анализ | интервью, боли пользователей, список проблем |
+| 15.04-19.04 | Моделирование AS-IS | AS-IS BPMN и анализ узких мест |
+| 22.04-26.04 | Проектирование TO-BE | TO-BE BPMN, границы проекта, требования |
+| 29.04-03.05 | Спецификация | макет формы и техническое задание |
+| 06.05-10.05 | Подготовка приемки | критерии приемки и тестовые сценарии |
 
-## Milestones
+## Вехи
 
-| Milestone | Result |
+| Веха | Результат |
 |---|---|
-| M1 | Current process agreed with stakeholders |
-| M2 | Main process problems confirmed |
-| M3 | Target process approved |
-| M4 | Requirements package ready for 1C team |
-| M5 | Acceptance criteria ready for validation |
+| M1 | Текущий процесс согласован с участниками |
+| M2 | Основные проблемы процесса подтверждены |
+| M3 | Целевой процесс согласован |
+| M4 | Пакет требований готов для команды 1С |
+| M5 | Критерии приемки готовы для проверки |

@@ -1,27 +1,27 @@
-# Root Cause Analysis
+# Анализ первопричин
 
-## Problem
+## Проблема
 
-Requests are delayed, lost or processed with incomplete data.
+Заявки задерживаются, теряются или обрабатываются с неполными данными.
 
-## 5 Whys
+## Метод "5 почему"
 
-| Why | Answer |
+| Вопрос | Ответ |
 |---|---|
-| Why are requests delayed? | Managers spend time checking missing data and updating statuses manually |
-| Why is data missing? | Requests arrive from email, chats and verbal communication without a single required form |
-| Why are statuses inconsistent? | Statuses are entered manually and are not controlled by a common status list |
-| Why does leadership see problems late? | Reports are prepared manually after delays have already happened |
-| Why was the process not controlled earlier? | There was no single process owner, SLA logic or operational dashboard |
+| Почему заявки задерживаются? | Менеджеры тратят время на проверку недостающих данных и ручное обновление статусов |
+| Почему данных не хватает? | Заявки поступают из почты, чатов и устных обращений без единой обязательной формы |
+| Почему статусы ведутся по-разному? | Статусы вводятся вручную и не контролируются единым справочником |
+| Почему руководство поздно видит проблемы? | Отчеты готовятся вручную уже после возникновения задержек |
+| Почему процесс раньше не контролировался? | Не было владельца процесса, логики SLA и оперативного отчета |
 
-## Root Causes
+## Первопричины
 
-- no single request registration channel;
-- no mandatory fields before processing;
-- no approved status model;
-- no automatic SLA calculation;
-- no online report for the head of sales.
+- нет единого канала регистрации заявок;
+- нет обязательных полей до передачи заявки в работу;
+- нет утвержденной модели статусов;
+- нет автоматического расчета SLA;
+- нет онлайн-отчета для руководителя отдела продаж.
 
-## Improvement Direction
+## Направление улучшения
 
-The target process should move request registration, validation, SLA and reporting into 1C while keeping the MVP scope limited to internal process automation.
+Целевой процесс должен перенести регистрацию, проверку данных, SLA и отчетность в 1С, при этом объем MVP остается ограниченным внутренней автоматизацией процесса.

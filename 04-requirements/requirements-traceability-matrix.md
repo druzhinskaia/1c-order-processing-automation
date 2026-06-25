@@ -1,6 +1,6 @@
-# Requirements Traceability Matrix
+# Матрица трассируемости требований
 
-| Business Requirement | Functional Requirement | User Story | Acceptance Criteria | Test Scenario |
+| Бизнес-требование | Функциональное требование | Пользовательская история | Критерий приемки | Тестовый сценарий |
 |---|---|---|---|---|
 | BR-01 | FR-01, FR-02, FR-03 | US-01 | AC-01 | TS-01 |
 | BR-02 | FR-08, FR-11 | US-03 | AC-05, AC-08 | TS-05, TS-07 |
@@ -10,6 +10,6 @@
 | BR-06 | FR-10 | US-05 | AC-07 | TS-06 |
 | BR-07 | FR-12 | US-06 | AC-09 | TS-08 |
 
-## Purpose
+## Назначение
 
-The RTM links business needs with functional requirements, user stories, acceptance criteria and test scenarios. It helps check that every business requirement is covered by implementation and validation artifacts.
+RTM связывает бизнес-потребности с функциональными требованиями, пользовательскими историями, критериями приемки и тестовыми сценариями. Такая матрица помогает проверить, что каждое бизнес-требование покрыто реализацией и проверкой.
