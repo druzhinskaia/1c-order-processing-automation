@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" modified="2026-06-25T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
-  <diagram id="as-is-процесс" name="AS-IS процесс">
+  <diagram id="текущий-процесс" name="Текущий процесс">
     <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="820" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -130,7 +130,7 @@
         <Array as="points">
           <mxPoint x="1010" y="285" />
           <mxPoint x="1010" y="345" />
-          <mxPoint x="640" y="345" />
+          <mxPoint x="620" y="345" />
         </Array>
       </mxGeometry>
     </mxCell>

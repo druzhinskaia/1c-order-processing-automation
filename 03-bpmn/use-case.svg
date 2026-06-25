@@ -24,7 +24,7 @@
     <ellipse cx="720" cy="185" rx="125" ry="36" fill="#ffffff" stroke="#70ad47" stroke-width="2"/>
     <text x="720" y="191" text-anchor="middle">Согласовать заявку</text>
     <ellipse cx="720" cy="280" rx="125" ry="36" fill="#ffffff" stroke="#70ad47" stroke-width="2"/>
-    <text x="720" y="286" text-anchor="middle">Смотреть отчет SLA</text>
+    <text x="720" y="286" text-anchor="middle">Смотреть отчет по срокам</text>
     <ellipse cx="720" cy="375" rx="125" ry="36" fill="#ffffff" stroke="#70ad47" stroke-width="2"/>
     <text x="720" y="381" text-anchor="middle">Настроить справочники</text>
   </g>

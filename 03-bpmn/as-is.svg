@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1680" height="820" viewBox="0 0 1680 820">
   <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1F4E78"/></marker></defs>
   <rect width="1680" height="820" fill="#FFFFFF"/>
-  <text x="840" y="45" text-anchor="middle" font-size="24" font-weight="700" fill="#1F4E78">AS-IS: текущий процесс обработки заявки</text>
+  <text x="840" y="45" text-anchor="middle" font-size="24" font-weight="700" fill="#1F4E78">Текущий процесс обработки заявки</text>
   <rect x="20" y="80" width="1640" height="120" fill="#F7FAFC" stroke="#B7C9DA"/><rect x="20" y="80" width="34" height="120" fill="#E6EEF6" stroke="#B7C9DA"/><text x="42" y="140" text-anchor="middle" transform="rotate(-90 42 140)" font-size="13" font-weight="700" fill="#1F2933">Инициатор</text><rect x="20" y="200" width="1640" height="170" fill="#EEF4FA" stroke="#B7C9DA"/><rect x="20" y="200" width="34" height="170" fill="#E6EEF6" stroke="#B7C9DA"/><text x="42" y="285" text-anchor="middle" transform="rotate(-90 42 285)" font-size="13" font-weight="700" fill="#1F2933">Менеджер</text><rect x="20" y="370" width="1640" height="140" fill="#F7FAFC" stroke="#B7C9DA"/><rect x="20" y="370" width="34" height="140" fill="#E6EEF6" stroke="#B7C9DA"/><text x="42" y="440" text-anchor="middle" transform="rotate(-90 42 440)" font-size="13" font-weight="700" fill="#1F2933">1С</text><rect x="20" y="510" width="1640" height="150" fill="#EEF4FA" stroke="#B7C9DA"/><rect x="20" y="510" width="34" height="150" fill="#E6EEF6" stroke="#B7C9DA"/><text x="42" y="585" text-anchor="middle" transform="rotate(-90 42 585)" font-size="13" font-weight="700" fill="#1F2933">Руководитель</text><rect x="20" y="660" width="1640" height="120" fill="#F7FAFC" stroke="#B7C9DA"/><rect x="20" y="660" width="34" height="120" fill="#E6EEF6" stroke="#B7C9DA"/><text x="42" y="720" text-anchor="middle" transform="rotate(-90 42 720)" font-size="13" font-weight="700" fill="#1F2933">Исполнитель</text>
   <path d="M 190 145 L 215 145 L 215 285 L 240 285" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 410 285 L 460 285" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
@@ -12,7 +12,7 @@
   <path d="M 950 475 L 950 515 L 1185 515 L 1185 555" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 1270 590 L 1340 590" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 1395 545 L 1395 500 L 1485 500 L 1485 335 L 1320 335 L 1320 285 L 1290 285" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/><text x="1500" y="490" text-anchor="middle" font-size="12" fill="#1F4E78">Нет</text>
-  <path d="M 1120 285 L 1010 285 L 1010 345 L 640 345 L 620 285" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 1120 285 L 1010 285 L 1010 345 L 620 345 L 620 285" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 1450 590 L 1505 590 L 1505 680 L 1505 700" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/><text x="1520" y="650" text-anchor="middle" font-size="12" fill="#1F4E78">Да</text>
   <path d="M 1420 730 L 1330 730" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 1160 730 L 1050 730" fill="none" stroke="#1F4E78" stroke-width="2" marker-end="url(#arrow)"/>

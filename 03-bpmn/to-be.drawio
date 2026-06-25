@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" modified="2026-06-25T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
-  <diagram id="to-be-процесс" name="TO-BE процесс">
+  <diagram id="целевой-процесс" name="Целевой процесс">
     <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="820" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -35,7 +35,7 @@
     <mxCell id="to-create" value="Создать заявку со статусом Новая" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
       <mxGeometry x="680" y="405" width="190" height="70" as="geometry" />
     </mxCell>
-    <mxCell id="to-assign" value="Назначить ответственного и SLA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
+    <mxCell id="to-assign" value="Назначить ответственного и контрольный срок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
       <mxGeometry x="920" y="405" width="190" height="70" as="geometry" />
     </mxCell>
     <mxCell id="to-work" value="Менеджер принимает в работу" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#1F2933;" vertex="1" parent="1">
@@ -59,7 +59,7 @@
     <mxCell id="to-notify" value="Уведомления о новых и просроченных заявках" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
       <mxGeometry x="920" y="535" width="190" height="70" as="geometry" />
     </mxCell>
-    <mxCell id="to-report" value="Отчет руководителя: статусы, SLA, ответственные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
+    <mxCell id="to-report" value="Отчет руководителя: статусы, сроки, ответственные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontColor=#1F2933;" vertex="1" parent="1">
       <mxGeometry x="700" y="535" width="190" height="70" as="geometry" />
     </mxCell>
     <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#1F4E78;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="to-start" target="to-validate">
@@ -123,6 +123,10 @@
     </mxCell>
     <mxCell id="e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#1F4E78;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="to-work" target="to-gateway-approve">
       <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1310" y="420" />
+          <mxPoint x="1285" y="420" />
+        </Array>
       </mxGeometry>
     </mxCell>
     <mxCell id="e11" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#1F4E78;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="to-gateway-approve" target="to-approve">
@@ -139,6 +143,10 @@
     </mxCell>
     <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#1F4E78;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="to-approve" target="to-execute">
       <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1545" y="660" />
+          <mxPoint x="1520" y="660" />
+        </Array>
       </mxGeometry>
     </mxCell>
     <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#1F4E78;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="to-execute" target="to-close">

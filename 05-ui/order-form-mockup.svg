@@ -17,7 +17,7 @@
   <text x="635" y="176" font-family="Arial, sans-serif" font-size="14" fill="#475569">Приоритет *</text>
   <rect x="635" y="186" width="145" height="24" rx="4" fill="#fff7ed" stroke="#f4b183"/>
   <text x="684" y="203" font-family="Arial, sans-serif" font-size="13" fill="#1f2933">Высокий</text>
-  <text x="815" y="176" font-family="Arial, sans-serif" font-size="14" fill="#475569">SLA</text>
+  <text x="815" y="176" font-family="Arial, sans-serif" font-size="14" fill="#475569">Срок</text>
   <rect x="815" y="186" width="145" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
   <text x="850" y="203" font-family="Arial, sans-serif" font-size="13" fill="#334155">1 рабочий день</text>
 
@@ -45,5 +45,5 @@
   <rect x="430" y="655" width="330" height="36" rx="5" fill="#eef4fa" stroke="#5b9bd5"/>
   <text x="455" y="678" font-family="Arial, sans-serif" font-size="14" fill="#1f2933">История статусов доступна в карточке</text>
   <rect x="790" y="655" width="320" height="36" rx="5" fill="#d9ead3" stroke="#70ad47"/>
-  <text x="815" y="678" font-family="Arial, sans-serif" font-size="14" fill="#1f2933">Сохранить и назначить SLA</text>
+  <text x="815" y="678" font-family="Arial, sans-serif" font-size="14" fill="#1f2933">Сохранить и назначить срок</text>
 </svg>

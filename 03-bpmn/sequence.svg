@@ -29,7 +29,7 @@
     <path d="M630 300 L390 300"/>
     <text x="510" y="292" text-anchor="middle" stroke="none">результат проверки</text>
     <path d="M390 355 L630 355"/>
-    <text x="510" y="347" text-anchor="middle" stroke="none">сохранение заявки, статуса, SLA</text>
+    <text x="510" y="347" text-anchor="middle" stroke="none">сохранение заявки, статуса, срока</text>
     <path d="M630 410 L870 410"/>
     <text x="750" y="402" text-anchor="middle" stroke="none">передача задачи на исполнение</text>
     <path d="M630 465 L1065 465"/>
